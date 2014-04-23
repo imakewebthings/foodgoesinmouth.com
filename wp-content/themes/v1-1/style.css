@@ -1,0 +1,99 @@
+/*
+Theme Name:		Food Goes in Mouth
+Theme URI:		http://www.foodgoesinmouth.com
+Description:	First iteration of <a href="http://www.foodgoesinmouth.com">Food Goes in Mouth</a>.
+Version:		1.01
+Author:			Caleb Troughton
+Author URI:		http://www.align-right.com
+*/
+
+* { margin:0; padding:0; }
+
+/* Clearfix */
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+* html .clearfix { height: 1%; }
+.clearfix { display:inline-block; }
+.clearfix { display:block; }
+
+/* Layout */
+body { font-size:100%; color:#5c5c5c; background:url(images/top_header_bg.jpg) 0 0 repeat-x #ffffff; line-height:1em; font-family: Arial, Helvetica, sans-serif; }
+#header { width:100%; height:172px; margin:29px auto 0 auto; background:url(images/main_header_bg.jpg) top center no-repeat; }
+#main { font-size:0.75em; width:805px; margin:0 auto; }
+#left_aside { float:left; width:158px; padding:15px 25px 0 0; font-size:.9166666em; }
+#right_aside { float:right; width:158px; padding:15px 0 0 25px; font-size:.9166666em; color:#999; }
+#content { float:left; width:439px; line-height:1.5em; }
+#footer { width:439px; margin:0 auto 10px auto; font-size:0.6875em; padding-top:15px; }
+
+/* Styles */
+#logo a { width:80px; height:77px; display:block; margin:33px auto 0 auto; text-indent:-9999px; overflow:hidden; background:url(images/h1_logo.gif) 0 0 no-repeat; }
+ul { list-style:none; }
+del { text-decoration:line-through; }
+ins { text-decoration:none; font-style:italic; }
+#main li { list-style:none; background:url(images/arrow_yellow.gif) left 5px no-repeat; padding-left:12px; }
+a { color:#bd8d46; text-decoration:none; }
+a:hover { color:#b9121b; }
+#left_aside h3, #right_aside h3 { background:url(images/aside_header_bg.jpg) left center no-repeat; padding-left:12px; margin-top:25px; margin-bottom:3px; }
+#left_aside h3.first_header, #right_aside h3.first_header { margin-top:0; }
+#right_aside p { text-align:justify; }
+#title h2 { margin:10px 0 0 0; }
+#title h3 { position:absolute; left:-9999px; top:-1000px; overflow:hidden; }
+#title ul { float:right; list-style:none; padding:6px 15px; border:1px solid #a58d8d; margin:1.2em 0 10px 15px; }
+#title { margin-bottom:10px; }
+span.lead_letter { font-size:1.5em; }
+.left_half { width:200px; float:left; display:block; margin-bottom:18px; }
+.right_half { width:200px; float:right; display:block; text-align:right; margin-bottom:18px; }
+p { margin-bottom:12px; }
+h2, h3, h4 { font-family: Palatino Linotype, Georgia, serif; color:#000; letter-spacing:.05em; }
+h2 { font-size:1.5em; margin-bottom:4px; }
+h3 { font-size:1.25em; color:#b9121b; }
+h4 { font-size:1em; }
+label { display:block; }
+code { font-family:Arial, Helvetica, sans-serif; }
+#tags_allowed { font-style:italic; font-size:.833333em; margin:0; }
+#comment { width:439px; }
+#submit { float:right; }
+#mast { margin:5px 0; }
+.right_thumb { float:right; margin:4px 0 1em 10px; }
+.left_thumb { float:left; margin:4px 10px 1em 0; }
+#content ul, #content ol { margin-bottom:1.5em; }
+#content ul ul { margin-bottom:0; }
+#main li.imgstep { background:none; padding-left:0; margin:1em 0; }
+blockquote { padding:12px 12px 0 12px; background:#eee; border:1px solid #ccc; font-style:italic; margin-bottom:12px; }
+
+/* Nav */
+#nav { width:433px; height:31px; margin:0 auto 0 auto; list-style:none; }
+#nav li { float:left; text-indent:-9999px; overflow:hidden; margin-top:2px; height:29px; list-style:none; }
+#nav li a { display:block; height:29px; margin-top:2px; }
+#nav .home_nav a { background:url(images/nav_matrix.jpg) 0 0 no-repeat; width:93px; }
+#nav .home_nav a:hover, #nav .home_nav a.selected { background:url(images/nav_matrix.jpg) 0 -29px no-repeat; }
+#nav .archive_nav a { background:url(images/nav_matrix.jpg) -93px 0 no-repeat; width:118px; }
+#nav .archive_nav a:hover, #nav .archive_nav a.selected { background:url(images/nav_matrix.jpg) -93px -29px no-repeat; }
+#nav .about_nav a { background:url(images/nav_matrix.jpg) -211px 0 no-repeat; width:94px; }
+#nav .about_nav a:hover, #nav .about_nav a.selected { background:url(images/nav_matrix.jpg) -211px -29px no-repeat; }
+#nav .subscribe_nav a { background:url(images/nav_matrix.jpg) -305px 0 no-repeat; width:128px; }
+#nav .subscribe_nav a:hover { background:url(images/nav_matrix.jpg) -305px -29px no-repeat; }
+
+/* Archives */
+#years { margin-bottom:15px; }
+
+/* Homepage */
+.excerpt { margin-bottom:25px; }
+.footnote { padding: 0 0 5px 0; font-size:0.8333333333em; font-style:italic; margin-top:-5px; }
+
+/* Comments */
+#main .comment { padding:5px 10px; margin-top:5px; background:#f5f5f5; }
+#main .comment_meta li { background:none; padding:0; }
+#main .comment_num { float:right; font-size:0.833333333em; }
+#main .comment_author { font-weight:bold; }
+#main .comment_time { font-size:0.833333333em; font-style:italic; }
+#main .comment p { margin:0.833333em 0 0 0; }
+#add_comment { margin-top:2em; }
+
+/* Live Comment Preview */
+#commentPreview .commentlist li { background:none; padding-left:0; }
+#commentPreview .commentlist li .avatar { display:none; }
+
+/* Addeds */
+#left_aside img { margin-top:15px; border:none; }
+
+#add_comment, #comment_form { display:none; }
